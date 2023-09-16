@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, Pressable } from "react-native";
 import { colors } from "../theme/colors";
 
 const Header = ({title}) => {
@@ -15,11 +15,13 @@ const styles = StyleSheet.create({
     width: '100%',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.darkBlue
+    backgroundColor: colors.darkBlue,
+    padding: 30,
   },
   headerText: {
-    fontSize:20,
-    color: colors.lightViolet
+    fontSize:25,
+    color: colors.lightViolet,
+    fontFamily: "Pacific",
   }
 })
 

@@ -1,11 +1,16 @@
-import { StyleSheet, Text, View, Image } from "react-native";
+import { StyleSheet, Text, View, Image, Pressable } from "react-native";
 import React from "react";
 
-const ProductItem = ({ item }) => {
+const ProductItem = ({ item, navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.productText}>{item.title}</Text>
-      <Image  source={{ uri: item.images[0]}} style={{height:80, width:80}}/>
+      <Pressable onPress={() => navigation.navigate('productDetail', {item})}>
+        <Text style={styles.productText}>{item.title}</Text>
+      </Pressable>
+      <Image
+        source={{ uri: item.images[0] }}
+        style={{ height: 80, width: 80 }}
+      />
     </View>
   );
 };
@@ -13,10 +18,10 @@ const ProductItem = ({ item }) => {
 export default ProductItem;
 
 const styles = StyleSheet.create({
-  container: { 
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'space-around',
+  container: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-around",
     borderWidth: 1,
     borderRadius: 10,
     marginHorizontal: 20,

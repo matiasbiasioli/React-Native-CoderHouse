@@ -1,14 +1,14 @@
+import { SafeAreaView } from "react-native";
 import Categories from "../components/Categories";
 import Header from "../components/Header";
-import Search from "../components/Search";
 
-const Home = () => {
+const Home = ({ navigation }) => {
   return (
-    <>
-      <Header title= 'Categorias'/>
-      <Categories />
-    </>
+    <SafeAreaView>
+      <Header title="Categorias" />
+      <Categories navigation={navigation} />  
+    </SafeAreaView>
   );
 };
 
-export default Home
+export default Home;
