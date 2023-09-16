@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View, Image, Pressable } from "react-native";
 import React from "react";
+import { colors } from "../theme/colors";
 
 const ProductItem = ({ item, navigation }) => {
   return (
@@ -28,6 +29,7 @@ const styles = StyleSheet.create({
     marginVertical: 5,
     padding: 10,
     height: 100,
+    backgroundColor: 'white',
   },
   productText: {
     fontSize: 15,
