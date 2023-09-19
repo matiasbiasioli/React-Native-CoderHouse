@@ -1,11 +1,11 @@
-import { View, Text, StyleSheet, Pressable } from "react-native";
+import { View, Text, StyleSheet, SafeAreaView} from "react-native";
 import { colors } from "../theme/colors";
 
 const Header = ({title}) => {
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <Text style={styles.headerText}>{title}</Text>
-    </View>
+    </SafeAreaView>
   );
 };
 
