@@ -3,6 +3,7 @@ import React from "react";
 import { colors } from "../theme/colors";
 
 const CategoryItem = ({ item, navigation }) => {
+  //Item es el nombre de la categoria presionada
   return (
     <Pressable style= {styles.container}
       onPress={() => 

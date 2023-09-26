@@ -2,10 +2,11 @@ import { FlatList, View, Pressable, SafeAreaView, StyleSheet } from "react-nativ
 import React, { useEffect, useState } from "react";
 import Header from "../components/Header";
 import Search from "../components/Search";
-import { products } from "../data/products";
+// import { products } from "../data/products";
 import ProductItem from "../components/ProductItem";
 import { Ionicons } from "@expo/vector-icons";
 import { colors } from "../theme/colors";
+import { useSelector } from "react-redux";
 
 const Products = ({ route, navigation }) => {
   const [productsCategory, setProductsCategory] = useState([]);
@@ -13,10 +14,12 @@ const Products = ({ route, navigation }) => {
 
   const { item } = route.params;
 
+  const products = useSelector(state => state.homeSlice.allProducts)
+
+  //Filtro buscador por categoria
   useEffect(() => {
     const productsByCategory = products.filter((el) => el.category === item);
     setProductsCategory(productsByCategory);
-    // filtro de input por nombre
     if (text) {
       const filterByName = products.filter(
         (el) => el.title.toLowerCase() === text.toLowerCase()

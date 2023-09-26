@@ -5,6 +5,9 @@ import { useFonts } from "expo-font";
 import ProductDetail from "./src/screens/ProductDetail";
 import RootNavigation from "./src/navigation/RootNavigation";
 import { NavigationContainer } from "@react-navigation/native";
+import TabNavigation from "./src/navigation/TabNavigation";
+import { Provider } from "react-redux";
+import { store } from "./src/redux/store";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -14,9 +17,12 @@ export default function App() {
     return;
   }
   return (
-    <NavigationContainer>
-      <RootNavigation />
-    </NavigationContainer>
+    <Provider store={store}>
+      <NavigationContainer>
+        {/* <RootNavigation /> */}
+        <TabNavigation />
+      </NavigationContainer>
+    </Provider>
 
     // <SafeAreaView style={styles.container}>
     //   <Home/>
