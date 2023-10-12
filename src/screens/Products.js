@@ -7,6 +7,7 @@ import ProductItem from "../components/ProductItem";
 import { Ionicons } from "@expo/vector-icons";
 import { colors } from "../theme/colors";
 import { useSelector } from "react-redux";
+import { useGetProductsQuery } from "../services/api_data";
 
 const Products = ({ route, navigation }) => {
   const [productsCategory, setProductsCategory] = useState([]);
@@ -14,7 +15,10 @@ const Products = ({ route, navigation }) => {
 
   const { item } = route.params;
 
+  //Usando Redux
   const products = useSelector(state => state.homeSlice.allProducts)
+  //Trayendo Productos desde Firebase
+  const datos = useGetProductsQuery()
 
   //Filtro buscador por categoria
   useEffect(() => {

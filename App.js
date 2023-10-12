@@ -8,6 +8,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import TabNavigation from "./src/navigation/TabNavigation";
 import { Provider } from "react-redux";
 import { store } from "./src/redux/store";
+import AuthenticationNav from "./src/navigation/AuthenticationNav";
+import MainNav from "./src/navigation/MainNav";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
@@ -18,10 +20,11 @@ export default function App() {
   }
   return (
     <Provider store={store}>
-      <NavigationContainer>
+      {/* <NavigationContainer> */}
         {/* <RootNavigation /> */}
-        <TabNavigation />
-      </NavigationContainer>
+        {/* <TabNavigation /> */}
+        <MainNav/>
+      {/* </NavigationContainer> */}
     </Provider>
 
     // <SafeAreaView style={styles.container}>

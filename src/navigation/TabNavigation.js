@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import RootNavigation from "./RootNavigation";
@@ -16,20 +16,20 @@ const TabNavigation = () => {
       <Tab.Screen
         options={{
           tabBarIcon: ({focused}) => (
-            <FontAwesome name="user-circle" size={34} color= {focused ? 'orange' : "black"} />
-          ),
-        }}
-        name="profile"
-        component={Profile}
-      />
-      <Tab.Screen
-        options={{
-          tabBarIcon: ({focused}) => (
             <MaterialCommunityIcons name="home-circle" size={34} color={focused ? 'orange' : 'black'} />
           ),
         }}
         name="root"
         component={RootNavigation}
+      />
+      <Tab.Screen
+        options={{
+          tabBarIcon: ({focused}) => (
+            <FontAwesome name="user-circle" size={34} color= {focused ? 'orange' : "black"} />
+          ),
+        }}
+        name="profile"
+        component={Profile}
       />
       <Tab.Screen
         options={{
