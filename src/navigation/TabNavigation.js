@@ -7,6 +7,7 @@ import Cart from "../screens/Cart";
 import { FontAwesome } from "@expo/vector-icons";
 import { Entypo } from "@expo/vector-icons";
 import { MaterialCommunityIcons } from '@expo/vector-icons';
+import ProfileNav from "./ProfileNav";
 
 const Tab = createBottomTabNavigator();
 
@@ -28,8 +29,8 @@ const TabNavigation = () => {
             <FontAwesome name="user-circle" size={34} color= {focused ? 'orange' : "black"} />
           ),
         }}
-        name="profile"
-        component={Profile}
+        name="profileNav"
+        component={ProfileNav}
       />
       <Tab.Screen
         options={{
