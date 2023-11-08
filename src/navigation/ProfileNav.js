@@ -8,7 +8,9 @@ const Stack = createNativeStackNavigator();
 
 const ProfileNav = () => {
   return (
-    <Stack.Navigator initialRouteName="profile">
+    <Stack.Navigator
+      initialRouteName="profile"
+    >
       <Stack.Screen component={Profile} name="profile" />
       <Stack.Screen component={MapLoc} name="mapLoc" />
     </Stack.Navigator>

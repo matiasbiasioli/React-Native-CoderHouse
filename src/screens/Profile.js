@@ -56,17 +56,17 @@ const Profile = ({ navigation }) => {
     }
   };
 
-  // const getCoords = async () => {
-  //   let { status } = await Location.requestForegroundPermissionsAsync();
-  //   if (status !== "granted") {
-  //     console.log("Permission to access location was denied");
-  //     return;
-  //   }
-  //   let location = await Location.getCurrentPositionAsync({});
-  //   setLocation(location);
-  //   navigation.navigate("MapLoc");
-  // };
-  // console.log("COORDENADAS", location);
+  const getCoords = async () => {
+    let { status } = await Location.requestForegroundPermissionsAsync();
+    if (status !== "granted") {
+      console.log("Permission to access location was denied");
+      return;
+    }
+    let location = await Location.getCurrentPositionAsync({});
+    setLocation(location);
+    navigation.navigate("mapLoc");
+  };
+  console.log("COORDENADAS", location);
 
   return (
     <View>
@@ -90,7 +90,7 @@ const Profile = ({ navigation }) => {
         </Pressable>
       </View>
       <View style={styles.containerMap}>
-        <Pressable onPress={()=> navigation.navigate("mapLoc")}>
+        <Pressable onPress={()=> getCoords()}>
           <FontAwesome5 name="map-marker-alt" size={40} color="black" />
         </Pressable>
       </View>
