@@ -51,7 +51,8 @@ export const products = [
     brand: "Samsung",
     category: "Centroamerica",
     thumbnail: "https://i.dummyjson.com/data/products/3/thumbnail.jpg",
-    images: ["https://i.dummyjson.com/data/products/3/1.jpg"],
+    images: 
+    ["https://www.turismomexico.es/wp-content/uploads/2015/07/chichen_itza.jpg"],
   },
   {
     id: 4,
@@ -65,6 +66,7 @@ export const products = [
     category: "Centroamerica",
     thumbnail: "https://i.dummyjson.com/data/products/4/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkkYsyS4vItDsg-dSBpuu5NibXfDRuWXdtRcexwFs2acV727qSCDc2h_0TBk62ueu15ZQ&usqp=CAU",
       "https://i.dummyjson.com/data/products/4/1.jpg",
       "https://i.dummyjson.com/data/products/4/2.jpg",
       "https://i.dummyjson.com/data/products/4/3.jpg",
@@ -85,6 +87,7 @@ export const products = [
     category: "Centroamerica",
     thumbnail: "https://i.dummyjson.com/data/products/5/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRevzXD_GHMXr176MrRGcv-XsN4ftG8tEgyRwQKZlerC3rpDINsKzngxX_ZeqWRavwgJHg&usqp=CAU",
       "https://i.dummyjson.com/data/products/5/1.jpg",
       "https://i.dummyjson.com/data/products/5/2.jpg",
       "https://i.dummyjson.com/data/products/5/3.jpg",
@@ -194,7 +197,7 @@ export const products = [
   },
   {
     id: 11,
-    title: "perfume Oil",
+    title: "España",
     description:
       "Mega Discount, Impression of Acqua Di Gio by GiorgioArmani concentrated attar perfume Oil",
     price: 13,
@@ -205,6 +208,7 @@ export const products = [
     category: "Europa",
     thumbnail: "https://i.dummyjson.com/data/products/11/thumbnail.jpg",
     images: [
+      "https://www.lapeninsula.es/wp-content/uploads/2014/03/plaza-espa%C3%B1a-de-sevilla.jpg",
       "https://i.dummyjson.com/data/products/11/1.jpg",
       "https://i.dummyjson.com/data/products/11/2.jpg",
       "https://i.dummyjson.com/data/products/11/3.jpg",
@@ -213,7 +217,7 @@ export const products = [
   },
   {
     id: 12,
-    title: "Brown Perfume",
+    title: "Italia",
     description: "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
     price: 40,
     discountPercentage: 15.66,
@@ -223,6 +227,7 @@ export const products = [
     category: "Europa",
     thumbnail: "https://i.dummyjson.com/data/products/12/thumbnail.jpg",
     images: [
+      "https://www.elissalles.com.br/imagens/roma_italia(1).jpg",
       "https://i.dummyjson.com/data/products/12/1.jpg",
       "https://i.dummyjson.com/data/products/12/2.jpg",
       "https://i.dummyjson.com/data/products/12/3.png",
@@ -232,7 +237,7 @@ export const products = [
   },
   {
     id: 13,
-    title: "Fog Scent Xpressio Perfume",
+    title: "Alemania",
     description:
       "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
     price: 13,
@@ -243,6 +248,7 @@ export const products = [
     category: "Europa",
     thumbnail: "https://i.dummyjson.com/data/products/13/thumbnail.webp",
     images: [
+      "https://tipsparatuviaje.com/wp-content/uploads/2019/10/berlin-alemania.jpg",
       "https://i.dummyjson.com/data/products/13/1.jpg",
       "https://i.dummyjson.com/data/products/13/2.png",
       "https://i.dummyjson.com/data/products/13/3.jpg",
@@ -252,7 +258,7 @@ export const products = [
   },
   {
     id: 14,
-    title: "Non-Alcoholic Concentrated Perfume Oil",
+    title: "Reino Unido",
     description:
       "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
     price: 120,
@@ -263,6 +269,7 @@ export const products = [
     category: "Europa",
     thumbnail: "https://i.dummyjson.com/data/products/14/thumbnail.jpg",
     images: [
+      "https://media.melhoresdestinos.com.br/2019/06/horario-londres.jpg",
       "https://i.dummyjson.com/data/products/14/1.jpg",
       "https://i.dummyjson.com/data/products/14/2.jpg",
       "https://i.dummyjson.com/data/products/14/3.jpg",
@@ -271,7 +278,7 @@ export const products = [
   },
   {
     id: 15,
-    title: "Eau De Perfume Spray",
+    title: "Francia",
     description:
       "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
     price: 30,
@@ -282,6 +289,7 @@ export const products = [
     category: "Europa",
     thumbnail: "https://i.dummyjson.com/data/products/15/thumbnail.jpg",
     images: [
+      "https://2.bp.blogspot.com/-L0vFjgBKB64/We9CPB9RB5I/AAAAAAAABZI/-AurXrOELSQc46tzEKrAuGqX26hS_lQawCLcBGAs/s1600/Francia-en-oto%25C3%25B1o.jpg",
       "https://i.dummyjson.com/data/products/15/1.jpg",
       "https://i.dummyjson.com/data/products/15/2.jpg",
       "https://i.dummyjson.com/data/products/15/3.jpg",
@@ -291,7 +299,7 @@ export const products = [
   },
   {
     id: 16,
-    title: "Hyaluronic Acid Serum",
+    title: "China",
     description:
       "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
     price: 19,
@@ -299,9 +307,10 @@ export const products = [
     rating: 4.83,
     stock: 110,
     brand: "L'Oreal Paris",
-    category: "skincare",
+    category: "Asia",
     thumbnail: "https://i.dummyjson.com/data/products/16/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg7SWX0Gt25hH21RTtesAzVjIXeQ3nQOxRsR_I0N5Lo7tZYms3IoyGs_YBzaJ3lyvqcMw&usqp=CAU",
       "https://i.dummyjson.com/data/products/16/1.png",
       "https://i.dummyjson.com/data/products/16/2.webp",
       "https://i.dummyjson.com/data/products/16/3.jpg",
@@ -311,7 +320,7 @@ export const products = [
   },
   {
     id: 17,
-    title: "Tree Oil 30ml",
+    title: "Indonesia",
     description:
       "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
     price: 12,
@@ -319,9 +328,10 @@ export const products = [
     rating: 4.52,
     stock: 78,
     brand: "Hemani Tea",
-    category: "skincare",
+    category: "Asia",
     thumbnail: "https://i.dummyjson.com/data/products/17/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGOb4CyJqo0H_p2mk87Q_NXyZ6bKrcEjIXbqU_AlbsQl-cDYeWRARZH2_x4FIyWDor4MA&usqp=CAU",
       "https://i.dummyjson.com/data/products/17/1.jpg",
       "https://i.dummyjson.com/data/products/17/2.jpg",
       "https://i.dummyjson.com/data/products/17/3.jpg",
@@ -330,7 +340,7 @@ export const products = [
   },
   {
     id: 18,
-    title: "Oil Free Moisturizer 100ml",
+    title: "India",
     description:
       "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
     price: 40,
@@ -338,9 +348,10 @@ export const products = [
     rating: 4.56,
     stock: 88,
     brand: "Dermive",
-    category: "skincare",
+    category: "Asia",
     thumbnail: "https://i.dummyjson.com/data/products/18/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO8uCeA_HfrlwRokxl7vxT6qlv7qIaoMWuPsjz4iK9sIEZ2vRcE0W4YruNvl4A5JcOfLc&usqp=CAU",
       "https://i.dummyjson.com/data/products/18/1.jpg",
       "https://i.dummyjson.com/data/products/18/2.jpg",
       "https://i.dummyjson.com/data/products/18/3.jpg",
@@ -350,7 +361,7 @@ export const products = [
   },
   {
     id: 19,
-    title: "Skin Beauty Serum.",
+    title: "Tailandia",
     description:
       "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
     price: 46,
@@ -358,9 +369,10 @@ export const products = [
     rating: 4.42,
     stock: 54,
     brand: "ROREC White Rice",
-    category: "skincare",
+    category: "Asia",
     thumbnail: "https://i.dummyjson.com/data/products/19/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS38smmt2-gayWBYwIy00W2UWJylIFKKw0TuF--xhSy80y_25e4sVkrKbm6ayifH_ouODg&usqp=CAU",
       "https://i.dummyjson.com/data/products/19/1.jpg",
       "https://i.dummyjson.com/data/products/19/2.jpg",
       "https://i.dummyjson.com/data/products/19/3.png",
@@ -369,7 +381,7 @@ export const products = [
   },
   {
     id: 20,
-    title: "Freckle Treatment Cream- 15gm",
+    title: "Etiopia",
     description:
       "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
     price: 70,
@@ -377,9 +389,10 @@ export const products = [
     rating: 4.06,
     stock: 140,
     brand: "Fair & Clear",
-    category: "skincare",
+    category: "África",
     thumbnail: "https://i.dummyjson.com/data/products/20/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTYrGnG1OlXO9vVO_LT7pZ38k5AgGqs35DwnYjxQGPIY9Eo9zY7GXambJPoZZXGa3VGPc&usqp=CAU",
       "https://i.dummyjson.com/data/products/20/1.jpg",
       "https://i.dummyjson.com/data/products/20/2.jpg",
       "https://i.dummyjson.com/data/products/20/3.jpg",
@@ -389,16 +402,17 @@ export const products = [
   },
   {
     id: 21,
-    title: "- Daal Masoor 500 grams",
+    title: "Camerun",
     description: "Fine quality Branded Product Keep in a cool and dry place",
     price: 20,
     discountPercentage: 4.81,
     rating: 4.44,
     stock: 133,
     brand: "Saaf & Khaas",
-    category: "groceries",
+    category: "África",
     thumbnail: "https://i.dummyjson.com/data/products/21/thumbnail.png",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2_yHTzblwOrwTakjF2mf7KjzqZsH5oMKUCV90qprMzllwV2nR2mhJIIu6XSPCJCE8etE&usqp=CAU",
       "https://i.dummyjson.com/data/products/21/1.png",
       "https://i.dummyjson.com/data/products/21/2.jpg",
       "https://i.dummyjson.com/data/products/21/3.jpg",
@@ -406,16 +420,17 @@ export const products = [
   },
   {
     id: 22,
-    title: "Elbow Macaroni - 400 gm",
+    title: "Marruecos",
     description: "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
     price: 14,
     discountPercentage: 15.58,
     rating: 4.57,
     stock: 146,
     brand: "Bake Parlor Big",
-    category: "groceries",
+    category: "África",
     thumbnail: "https://i.dummyjson.com/data/products/22/thumbnail.jpg",
     images: [
+      "https://www.intermundial.es/blog/wp-content/uploads/2016/12/Consejos-para-visitar-Marruecos-1080x570.jpg",
       "https://i.dummyjson.com/data/products/22/1.jpg",
       "https://i.dummyjson.com/data/products/22/2.jpg",
       "https://i.dummyjson.com/data/products/22/3.jpg",
@@ -423,7 +438,7 @@ export const products = [
   },
   {
     id: 23,
-    title: "Orange Essence Food Flavou",
+    title: "Nueva Zelanda",
     description:
       "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
     price: 14,
@@ -431,9 +446,10 @@ export const products = [
     rating: 4.85,
     stock: 26,
     brand: "Baking Food Items",
-    category: "groceries",
+    category: "Oceania",
     thumbnail: "https://i.dummyjson.com/data/products/23/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6yUQpBHYlI3cuehysOzXWsheBe14klqqrggE6ffnGh_PluBQNLw2hasi1_gHH0Ym0jKE&usqp=CAU",
       "https://i.dummyjson.com/data/products/23/1.jpg",
       "https://i.dummyjson.com/data/products/23/2.jpg",
       "https://i.dummyjson.com/data/products/23/3.jpg",
@@ -443,7 +459,7 @@ export const products = [
   },
   {
     id: 24,
-    title: "cereals muesli fruit nuts",
+    title: "Australia",
     description:
       "original fauji cereal muesli 250gm box pack original fauji cereals muesli fruit nuts flakes breakfast cereal break fast faujicereals cerels cerel foji fouji",
     price: 46,
@@ -451,9 +467,10 @@ export const products = [
     rating: 4.94,
     stock: 113,
     brand: "fauji",
-    category: "groceries",
+    category: "Oceania",
     thumbnail: "https://i.dummyjson.com/data/products/24/thumbnail.jpg",
     images: [
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr0dZ8EeRpmUNaT1J3v7tTYgRoEkC5SQpoI7f-9ly_0peW3x90iXzAZ4IQw5pLSIA9SI8&usqp=CAU",
       "https://i.dummyjson.com/data/products/24/1.jpg",
       "https://i.dummyjson.com/data/products/24/2.jpg",
       "https://i.dummyjson.com/data/products/24/3.jpg",
